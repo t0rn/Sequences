@@ -17,17 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "RainbowSequence"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of RainbowSequence."
+  spec.summary      = "My awesome description of RainbowSequence"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = 'Description of RainbowSequence blah blah blag'
+                   
 
-  spec.homepage     = "http://EXAMPLE/RainbowSequence"
+  spec.homepage     = "https://github.com/t0rn/Sequences"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Alexey Ivanov" => "aivanov@mobiledimension.ru" }
+  spec.author             = { "Alexey Ivanov" => "aleksey.ivanov1@gmail.com" }
   # Or just: spec.author    = "Alexey Ivanov"
   # spec.authors            = { "Alexey Ivanov" => "aivanov@mobiledimension.ru" }
   # spec.social_media_url   = "https://twitter.com/Alexey Ivanov"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/RainbowSequence.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/t0rn/Sequences.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
